@@ -11,13 +11,13 @@
 
 <header class="hero">
 <nav class="navbar">
-<img src="assets/Logos/JMHP_White.png" class="logo">
+<img src="assets/logos/JMHP_White.png" class="logo">
 
 <div class="navlinks">
 <a href="#">HOME</a>
 <a href="#services">SERVICES</a>
 <a href="#gallery">OUR WORK</a>
-<a href="#reviews">REVIEWS</a>
+<a href="#reviews">reviews</a>
 <a href="#contact">CONTACT</a>
 </div>
 
@@ -43,12 +43,12 @@ Reliable plumbing and heating solutions you can trust.
 </div>
 
 <div class="reviewsmall">
-★★★★★ 5.0 Google Reviews
+★★★★★ 5.0 Google reviews
 </div>
 </div>
 
 <div class="hero-image">
-<img src="assets/Finish Photos/maree.jpeg">
+<img src="assets/finish photos/maree.jpeg">
 </div>
 </div>
 </header>
@@ -116,7 +116,7 @@ Reliable plumbing and heating solutions you can trust.
 
 
 <section class="reviews" id="reviews">
-<h2>REVIEWS</h2>
+<h2>reviews</h2>
 
 <div class="review-grid review-expandable">
 
@@ -805,7 +805,7 @@ Reliable plumbing and heating solutions you can trust.
 </div>
 
 <div style="text-align:center;margin-top:40px;">
-<button class="yellow review-gallery-btn" onclick="toggleAllReviews()">VIEW ALL REVIEWS</button>
+<button class="yellow review-gallery-btn" onclick="toggleAllreviews()">VIEW ALL reviews</button>
 </div>
 </section>
 
@@ -879,7 +879,7 @@ function toggleGallery(){
     }
 }
 
-const galleryImages = ['assets/finish photos/WhatsApcg.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.27.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.28.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-17 at 19.58.10.jpeg', 'assets/Finish Photos/WhatsApp Image odeon.jpeg', 'assets/Finish Photos/WhatsApp Image rm5ccw.jpeg', 'assets/Finish Photos/WhatsApp avondale.jpeg', 'assets/Finish Photos/WhatsAppcg.jpeg', 'assets/Finish Photos/WhatsAppran.jpeg', 'assets/Finish Photos/WhatsApptoc.jpeg', 'assets/Finish Photos/maree.jpeg'];
+const galleryImages = ['assets/finish photos/WhatsApcg.jpeg', 'assets/finish photos/WhatsApp Image 2026-05-08 at 12.48.27.jpeg', 'assets/finish photos/WhatsApp Image 2026-05-08 at 12.48.28.jpeg', 'assets/finish photos/WhatsApp Image 2026-05-17 at 19.58.10.jpeg', 'assets/finish photos/WhatsApp Image odeon.jpeg', 'assets/finish photos/WhatsApp Image rm5ccw.jpeg', 'assets/finish photos/WhatsApp avondale.jpeg', 'assets/finish photos/WhatsAppcg.jpeg', 'assets/finish photos/WhatsAppran.jpeg', 'assets/finish photos/WhatsApptoc.jpeg', 'assets/finish photos/maree.jpeg'];
 
 let currentIndex = 0;
 
@@ -919,7 +919,7 @@ function toggleReview(btn){
 
 let reviewsExpanded = false;
 
-function toggleAllReviews(){
+function toggleAllreviews(){
     const grid = document.querySelector('.review-expandable');
 
     reviewsExpanded = !reviewsExpanded;
@@ -929,7 +929,7 @@ function toggleAllReviews(){
         document.querySelector('.review-gallery-btn').innerText = 'SHOW LESS';
     } else {
         grid.classList.remove('expanded');
-        document.querySelector('.review-gallery-btn').innerText = 'VIEW ALL REVIEWS';
+        document.querySelector('.review-gallery-btn').innerText = 'VIEW ALL reviews';
     }
 }
 </script>
