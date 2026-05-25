@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>JMHP Services</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+<nav class="navbar">
+<img src="assets/Logos/JMHP_White.png" class="logo">
+
+<div class="navlinks">
+<a href="#">HOME</a>
+<a href="#services">SERVICES</a>
+<a href="#gallery">OUR WORK</a>
+<a href="#reviews">REVIEWS</a>
+<a href="#contact">CONTACT</a>
+</div>
+
+<a class="phonebtn" href="tel:0860563757">086 056 3757</a>
+</nav>
+
+<div class="hero-grid">
+<div class="hero-text">
+<h4>PROFESSIONAL • RELIABLE • LOCAL</h4>
+
+<h1>HEATING &<br><span>PLUMBING</span></h1>
+
+<h2>SERVICES IN GALWAY</h2>
+
+<p>
+High quality workmanship for homes and businesses across County Galway.
+Reliable plumbing and heating solutions you can trust.
+</p>
+
+<div class="btns">
+<a class="yellow" href="tel:0860563757">CALL NOW</a>
+<a class="outline" href="https://wa.me/353860563757">WHATSAPP</a>
+</div>
+
+<div class="reviewsmall">
+★★★★★ 5.0 Google Reviews
+</div>
+</div>
+
+<div class="hero-image">
+<img src="assets/Finish Photos/maree.jpeg">
+</div>
+</div>
+</header>
+
+<section class="services" id="services">
+<h2>OUR SERVICES</h2>
+
+<div class="service-grid">
+<div class="card">
+<h3>Bathroom Renovations</h3>
+<p>Complete bathroom transformations tailored to your style and budget.</p>
+</div>
+
+<div class="card">
+<h3>Heating Systems</h3>
+<p>Installation and servicing for efficient and reliable heating.</p>
+</div>
+
+<div class="card">
+<h3>Maintenance & Repairs</h3>
+<p>Fast repairs and maintenance to keep everything running properly.</p>
+</div>
+
+<div class="card">
+<h3>Oil Boiler Services</h3>
+<p>Oil boiler installations, servicing and maintenance.</p>
+</div>
+</div>
+</section>
+
+
+<section class="gallery" id="gallery">
+<h2>OUR WORK</h2>
+
+<div class="gallery-grid">
+<img src="assets/Finish Photos/WhatsApcg.jpeg" onclick="openLightbox(0)">
+<img src="assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.27.jpeg" onclick="openLightbox(1)">
+<img src="assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.28.jpeg" onclick="openLightbox(2)">
+<img src="assets/Finish Photos/WhatsApp Image 2026-05-17 at 19.58.10.jpeg" onclick="openLightbox(3)">
+<img src="assets/Finish Photos/WhatsApp Image odeon.jpeg" onclick="openLightbox(4)">
+<img src="assets/Finish Photos/WhatsApp Image rm5ccw.jpeg" onclick="openLightbox(5)">
+<img src="assets/Finish Photos/WhatsApp avondale.jpeg" onclick="openLightbox(6)">
+<img src="assets/Finish Photos/WhatsAppcg.jpeg" onclick="openLightbox(7)">
+<img src="assets/Finish Photos/WhatsAppran.jpeg" onclick="openLightbox(8)">
+<img src="assets/Finish Photos/WhatsApptoc.jpeg" onclick="openLightbox(9)">
+<img src="assets/Finish Photos/maree.jpeg" onclick="openLightbox(10)">
+</div>
+
+<div style="text-align:center;margin-top:40px;">
+<button class="yellow gallery-btn" onclick="toggleGallery()">VIEW ALL PROJECTS</button>
+</div>
+</section>
+
+<div id="lightbox" class="lightbox">
+<span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+<img id="lightbox-img">
+<div class="lightbox-controls">
+<button onclick="prevImage()">❮</button>
+<button onclick="nextImage()">❯</button>
+</div>
+</div>
+
+
+
+
+
+<section class="reviews" id="reviews">
+<h2>REVIEWS</h2>
+
+<div class="review-grid review-expandable">
+
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Excellent service, prompt reply, very keen to establish issue and rectify eventhough they did not install my system. Very nice all round.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Carmel Burke</span>
+        <span class="review-date">Apr 25, 2026</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Ann Marie Cleere</span>
+        <span class="review-date">Apr 23, 2026</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Western Fire Protection Supplies Ltd</span>
+        <span class="review-date">Apr 4, 2026</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Exceptional workmanship and customer focussed</p>
+
+        
+
+        <span class="review-name">— Teresa Fox</span>
+        <span class="review-date">Feb 9, 2026</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Stephen Hurley</span>
+        <span class="review-date">Jun 25, 2025</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Francesca Counihan</span>
+        <span class="review-date">Mar 6, 2025</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Johnathan and Dylan were prompt and efficient. They identified a problem that had been ongoing for years and we will now have a warm home. Thanks again Johnathan 👍</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Margo Ryan</span>
+        <span class="review-date">Dec 10, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">No nonsense very knowledgeable plumber. Showed up on time and got the job done. Six thumbs up</p>
+
+        
+
+        <span class="review-name">— Shannon Reeves</span>
+        <span class="review-date">Nov 18, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Couldn't recommend enough. Jonathan is an extremely solid, resourceful and forward thinking expert in what he does. Also, he looks at every aspect of your plumbing system and approaches it professionally.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Tomasz Ciezki</span>
+        <span class="review-date">Oct 7, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jon is an excellent plumber and central heating engineer. Highly recommend!</p>
+
+        
+
+        <span class="review-name">— Chris Duke</span>
+        <span class="review-date">Sep 26, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Needed 2 bathrooms & 1 kitchen to be changed, excellent support from John on all the plumbing matters. I couldn't be at the property all the time, so good to be able to trust leaving a set of keys.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Martin O Connell</span>
+        <span class="review-date">Apr 8, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Excellent service and work. Thank you.</p>
+
+        
+
+        <span class="review-name">— Ursula Mannion</span>
+        <span class="review-date">Feb 9, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Íde Ní Fhaoláin</span>
+        <span class="review-date">Jan 12, 2024</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Very good 👍 thanks</p>
+
+        
+
+        <span class="review-name">— Mark Doe</span>
+        <span class="review-date">Nov 17, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Very good service, prompt and helpful. I have had this plumber do a number of jobs, over a number of years and always happy with his work.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Karen Feeney</span>
+        <span class="review-date">Nov 17, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">I suspected a leak and that was very stressful. I called Jon at 6.00PM on Friday evening. He answered immediately, referred me to a leak detection specialist. Both agreed to come on the following Tuesday morning.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Jim Sweeney</span>
+        <span class="review-date">Nov 12, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">I have used John Martin's services across multiple businesses in the catering agency over a few years now. There are many reasons why I continue to return to him.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Red Rosco Ltd T/a Barnacles Bar</span>
+        <span class="review-date">Nov 8, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Really exceptional service. Jon was so professional, honest and helpful in every way. We are so pleased with his service and advice and couldn't recommend him enough. Thanks Jon.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Carlos Bartoli</span>
+        <span class="review-date">Oct 27, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Very efficient and explains everything clearly.</p>
+
+        
+
+        <span class="review-name">— O Reillys Bar</span>
+        <span class="review-date">Sep 24, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Tony Hanley</span>
+        <span class="review-date">Mar 10, 2023</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Mary Sexton</span>
+        <span class="review-date">Nov 14, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Exceptional at his job. Extremely accommodating. Timely service. Could not recommend more. Very professional method of invoicing and payment. Thank you Jonathan for all your hard work and assistance.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Emma Corbett</span>
+        <span class="review-date">Oct 3, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Highly recommend, very professional and high quality work. I have no fault with anything that was done. Very happy customer!</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— CGA Technologies</span>
+        <span class="review-date">Sep 26, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Owen O Brien</span>
+        <span class="review-date">Sep 23, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Helena O Flaherty</span>
+        <span class="review-date">Sep 23, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Overall good experience, listened to our concerns and wishes and delivered on them. Had two apprentices working alongside who were good workers and polite at all times.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Chris And Mary Beckles</span>
+        <span class="review-date">Sep 22, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">I was greatly impressed by the professionalism and consummate expertise displayed throughout the installation process. Mr. Martin is obviously very skilled at what he does.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Michael Hartnett</span>
+        <span class="review-date">Aug 22, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Very helpful and professional service. Reasonably priced and friendly as long as you give him a cup of tea!</p>
+
+        
+
+        <span class="review-name">— The Salt House</span>
+        <span class="review-date">Jul 25, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Great service. Top class work and done very professionally. Would highly recommend him. Nice man.</p>
+
+        
+
+        <span class="review-name">— Liam Naughton</span>
+        <span class="review-date">Mar 8, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Fast efficient delivery and installation of new boiler. Good quality workmanship.</p>
+
+        
+
+        <span class="review-name">— Padraic Murphy</span>
+        <span class="review-date">Mar 8, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jon and Joe did a great job plumbing our shed and were very tidy in the clean up. I will be calling them if I need any other work done.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Conor Hoary</span>
+        <span class="review-date">Feb 17, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">A true professional who gets the job done at a reasonable price. Jon and his team carried out the work with minimum disruption.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Ray Martin</span>
+        <span class="review-date">Feb 10, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Joe Crann</span>
+        <span class="review-date">Feb 10, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Vincent Di Mauro</span>
+        <span class="review-date">Jan 14, 2022</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">A very professional plumber. I am very pleased with the work done for me.</p>
+
+        
+
+        <span class="review-name">— Rafał Ukleja</span>
+        <span class="review-date">Dec 10, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jonathan is at the top of his profession: completely knowledgeable about everything plumbing-related, professional communications and prompt service.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— John Romero</span>
+        <span class="review-date">Nov 28, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">High quality work, professional, courteous, trustworthy. Highly recommend!</p>
+
+        
+
+        <span class="review-name">— Karen Doyle</span>
+        <span class="review-date">Nov 24, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Igor Muntean</span>
+        <span class="review-date">Nov 12, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">I have been using John's services in our business for many years. The service has consistently been fantastic and very reliable.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Oslo Bar</span>
+        <span class="review-date">Nov 10, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Urszula Kazak</span>
+        <span class="review-date">Nov 8, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Jon came in the afternoon when I'd only phoned that morning about an oil boiler leak. He repaired it promptly, and also spent time investigating our water supply.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Nigel Slack</span>
+        <span class="review-date">Oct 21, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Colm Rogan</span>
+        <span class="review-date">Sep 28, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">We have been using Jonathan's service for many years, he is honest, punctual and does excellent work. We hope to continue using his service for years to come.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Galway Simon</span>
+        <span class="review-date">Sep 15, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Brian Mcdermott</span>
+        <span class="review-date">Aug 26, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">John is incredibly efficient, extremely helpful and informative. Can't recommend him highly enough.</p>
+
+        
+
+        <span class="review-name">— Paula Mcgurrell</span>
+        <span class="review-date">Aug 17, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">I gave this score because I was happy about the job he did.</p>
+
+        
+
+        <span class="review-name">— Emmanuel Boakye</span>
+        <span class="review-date">Aug 8, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">You'll never need to find another plumber. Jon is very professional and experienced in all plumbing issues and will advise what is the best option for you.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Joss Clarke</span>
+        <span class="review-date">Aug 7, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★☆</div>
+
+        <p class="review-text">Great service and very knowledgeable. Thanks John.</p>
+
+        
+
+        <span class="review-name">— Shaun Flynn</span>
+        <span class="review-date">Jul 29, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jon is absolutely brilliant at his work and a very affable person to have around while he gets on with things.</p>
+
+        
+
+        <span class="review-name">— Rosemary Gallagher</span>
+        <span class="review-date">Jun 16, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Great customer service and very professional. The work carried out was to a very high standard and completed efficiently.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Seapoint Leisure</span>
+        <span class="review-date">May 21, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Jonathon Killeen</span>
+        <span class="review-date">May 20, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jon is an incredible professional. We've worked with him several times. He is straight up and honest about any job needing attention.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Keara & Gary Mcdonald</span>
+        <span class="review-date">May 4, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Excellent, reliable and will never let you down!</p>
+
+        
+
+        <span class="review-name">— Shirley Kilduff</span>
+        <span class="review-date">Apr 27, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Johnny was excellent. Very thorough with everything he did when fitting our new oil burner. No hesitation recommending him.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Philip Sullivan</span>
+        <span class="review-date">Apr 14, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jon has worked on our house on numerous occasions from renovations to repairs. He is extremely reliable and a pleasure to deal with.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Jason Cooney</span>
+        <span class="review-date">Apr 14, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Jonathan is very friendly, efficient, and knowledgeable about plumbing. Carried out the work in my house quickly and explained exactly what needed to be done.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Ciaran Tierney</span>
+        <span class="review-date">Apr 14, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">John is the consummate professional who does his work to perfection. He is the go to man for all your plumbing needs.</p>
+
+        
+
+        <span class="review-name">— Dermot O Brien</span>
+        <span class="review-date">Apr 13, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Honest and reliable.</p>
+
+        
+
+        <span class="review-name">— James Barrett</span>
+        <span class="review-date">Apr 4, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Colm McDonough</span>
+        <span class="review-date">Feb 8, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">10/10 best person we have ever had.</p>
+
+        
+
+        <span class="review-name">— Sean And Bridget Hogan</span>
+        <span class="review-date">Feb 4, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Verified Customer Review</p>
+
+        
+
+        <span class="review-name">— Rory Sheridan</span>
+        <span class="review-date">Jan 25, 2021</span>
+    </div>
+    
+    <div class="review-card expandable-review">
+        <div class="stars">★★★★★</div>
+
+        <p class="review-text">Excellent service. Very thorough. Got to the bottom of a long running issue that a number of other plumbers failed to solve.</p>
+
+        <button class="read-more-btn" onclick="toggleReview(this)">Read More</button>
+
+        <span class="review-name">— Paddy Loan</span>
+        <span class="review-date">Dec 8, 2020</span>
+    </div>
+    
+</div>
+
+<div style="text-align:center;margin-top:40px;">
+<button class="yellow review-gallery-btn" onclick="toggleAllReviews()">VIEW ALL REVIEWS</button>
+</div>
+</section>
+
+
+
+
+<section class="contact" id="contact">
+<div class="contactbox">
+<div>
+<h2>GET IN TOUCH TODAY</h2>
+<p>We’re always happy to help with your plumbing and heating needs in Galway.</p>
+</div>
+
+<div class="btns">
+<a class="yellow" href="tel:0860563757">086 056 3757</a>
+<a class="outline" href="https://wa.me/353860563757">WHATSAPP</a>
+</div>
+</div>
+</section>
+
+
+<section class="social-connect">
+    <h2>CONNECT WITH US</h2>
+
+    <div class="social-buttons">
+
+        <a href="https://www.facebook.com/people/John-Martin-Heating-Plumbing/100064133945708/" target="_blank" class="social-btn">
+            <img src="assets/Decals/Facebook_Logo.png" alt="Facebook">
+            <span>Follow us on Facebook</span>
+        </a>
+
+        <a href="https://share.google/mRWG3BWXB67lqIZs4" target="_blank" class="social-btn">
+            <img src="assets/Decals/Google_Logo.png" alt="Google Business">
+            <span>View our Google Business Page</span>
+        </a>
+
+    </div>
+</section>
+
+<footer>
+<div class="footergrid">
+<div>
+<img src="assets/Logos/JMHP_Yellow_White.png" class="footerlogo">
+<p>Professional plumbing and heating services across County Galway.</p>
+</div>
+
+<div>
+<h4>CONTACT</h4>
+<p>086 056 3757</p>
+<p>County Galway, Ireland</p>
+</div>
+</div>
+
+<div class="copy">© 2026 JMHP Services</div>
+</footer>
+
+
+<script>
+let expanded = false;
+
+function toggleGallery(){
+    const grid = document.querySelector('.gallery-grid');
+    expanded = !expanded;
+
+    if(expanded){
+        grid.classList.add('expanded');
+        document.querySelector('.gallery-btn').innerText = 'SHOW LESS';
+    } else {
+        grid.classList.remove('expanded');
+        document.querySelector('.gallery-btn').innerText = 'VIEW ALL PROJECTS';
+    }
+}
+
+const galleryImages = ['assets/Finish Photos/WhatsApcg.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.27.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-08 at 12.48.28.jpeg', 'assets/Finish Photos/WhatsApp Image 2026-05-17 at 19.58.10.jpeg', 'assets/Finish Photos/WhatsApp Image odeon.jpeg', 'assets/Finish Photos/WhatsApp Image rm5ccw.jpeg', 'assets/Finish Photos/WhatsApp avondale.jpeg', 'assets/Finish Photos/WhatsAppcg.jpeg', 'assets/Finish Photos/WhatsAppran.jpeg', 'assets/Finish Photos/WhatsApptoc.jpeg', 'assets/Finish Photos/maree.jpeg'];
+
+let currentIndex = 0;
+
+function openLightbox(index){
+    currentIndex = index;
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = galleryImages[index];
+}
+
+function closeLightbox(){
+    document.getElementById('lightbox').style.display = 'none';
+}
+
+function nextImage(){
+    currentIndex = (currentIndex + 1) % galleryImages.length;
+    document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+}
+
+function prevImage(){
+    currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+    document.getElementById('lightbox-img').src = galleryImages[currentIndex];
+}
+</script>
+
+<script>
+
+function toggleReview(btn){
+    const text = btn.previousElementSibling;
+    text.classList.toggle('expanded');
+
+    if(text.classList.contains('expanded')){
+        btn.innerText = 'Show Less';
+    } else {
+        btn.innerText = 'Read More';
+    }
+}
+
+let reviewsExpanded = false;
+
+function toggleAllReviews(){
+    const grid = document.querySelector('.review-expandable');
+
+    reviewsExpanded = !reviewsExpanded;
+
+    if(reviewsExpanded){
+        grid.classList.add('expanded');
+        document.querySelector('.review-gallery-btn').innerText = 'SHOW LESS';
+    } else {
+        grid.classList.remove('expanded');
+        document.querySelector('.review-gallery-btn').innerText = 'VIEW ALL REVIEWS';
+    }
+}
+</script>
+</body>
+
+
+</html>
